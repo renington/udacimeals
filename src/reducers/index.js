@@ -1,3 +1,5 @@
+import { combineReducers } from 'redux'
+
 import {
     ADD_RECIPE,
     REMOVE_FROM_CALENDAR,
@@ -80,4 +82,7 @@ const initialCalendarState = {
     }
   }
 
-  export default calendar
+  export default combineReducers ({
+    food,
+    calendar
+  })
