@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { addRecipe, removeFromCalendar } from '../actions'
-import { capitalize } from '../utils/helper'
+import { capitalize } from '../utils/helpers'
 import CalendarIcon from 'react-icons/lib/fa/calendar-plus-o'
 import Modal from 'react-modal'
 import ArrowRightIcon from 'react-icons/lib/fa/arrow-circle-right'
